@@ -7,4 +7,6 @@ def map(array)
   # yield pass element of the array to the block. map{ block }
     new.push(yield(array[i]))
     i += 1 
+  end
+  new 
 end
