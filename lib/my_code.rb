@@ -11,7 +11,7 @@ def map(array)
   new 
 end
 
-def reuce(array, starting_value=nil)
+def reduce(array, starting_value=nil)
   if starting_value
     num1 = starting_value
     i = 0
